@@ -1,0 +1,47 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>To-Do app</title>
+  </head>
+  <body>
+    <div class="container">
+      <center>
+        <h1><mark>To-Do App</mark></h1>
+      </center>
+
+      <div class="wrap" id="demo">
+        <!-- <form> -->
+        <center>
+          <textarea
+            type="text"
+            id="inputdata"
+            placeholder="Enter the text here"
+          ></textarea>
+        </center>
+        <div class="button">
+          <center>
+            <button
+              class="btn"
+              value="Submit"
+              onclick="return addItem(inputdata.value)"
+              style="background: rgb(0, 110, 0)"
+            >
+              Add Task
+            </button>
+          </center>
+          <!-- </form> -->
+        </div>
+      </div>
+
+      <div class="cdbody" style="margin-top: 10px">
+        <center>
+          <h2><mark>Tasks for Working</mark></h2>
+        </center>
+        <ul id="listItems" class="bullet"></ul>
+      </div>
+    </div>
+    <script src="main.js"></script>
+  </body>
+</html>

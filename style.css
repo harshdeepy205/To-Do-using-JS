@@ -1,0 +1,103 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    background: linear-gradient(57deg,
+            #833ab4, #fd1d1d, #fcb045);
+}
+
+
+.container {
+    /* background-image: url("1.jpg"); */
+    width: 100%;
+    /* background-color: white; */
+    color: black;
+    height: auto;
+    margin: 70px auto;
+    border-radius: 60px;
+    /* box-shadow: 0px 9px 7px -3px #bdbdbd; */
+    padding: 30px;
+    background: rgba(0px 0px 0.2px 0.2px);
+}
+
+.wrap textarea {
+    background-color: white;
+    border: none;
+    outline: none;
+    width: 50%;
+    height: 55px;
+    font-size: 22px;
+    margin-top: 50px;
+    margin-left: 3px;
+    border-radius: 11px;
+}
+
+.btn {
+    align-content: center;
+    width: 128px;
+    height: 43px;
+    font-size: 18px;
+    margin-top: 15px;
+    background: green;
+    border: none;
+    border-radius: 8px;
+    color: white;
+}
+
+.cdbody ul li {
+
+    outline: none;
+    width: 50%;
+    height: 40px;
+    font-size: 24px;
+    font-weight: bolder;
+    position: relative;
+    /* display: block; */
+    padding: 0px 10px;
+    margin-bottom: 10px;
+    background-color: rgb(255, 255, 255);
+
+    color: black;
+    border: 1px solid rgba(0, 0, 0, 0.125);
+    text-align: left;
+    margin-left: 10px;
+}
+
+.cdbody ul li input {
+    background-color: black;
+    color: white;
+}
+
+.cdbody ul {
+    text-align: -webkit-center;
+}
+
+.li-item {
+    display: flex;
+    justify-content: space-between;
+    cursor: pointer;
+}
+
+ul #listItems {
+    min-width: 696px;
+    list-style: none;
+    padding-top: 20px;
+}
+
+.cdbody h2 {
+    font-weight: bolder;
+    font-size: 26px;
+}
+
+@media(max-width:534px) {
+    .cdbody ul li {
+        width: 100%;
+    }
+
+    .wrap textarea {
+        width: 100%;
+    }
+}
